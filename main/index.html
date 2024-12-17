@@ -14,38 +14,38 @@
     <nav class="nav container-fluid d-flex justify-content-between align-items-center px-3 ">
 
       <a class="navbar-brand" href="#">
-        <img src="#" alt="logo" width="30" height="24">
+        <img src="../src/DEV.png" alt="logo" width="130" height="130">
       </a>
     
       <ul class="nav text d-flex justify-content-end">
         <li class="nav-item nav-color">
           <a class="nav-link" aria-current="page" href="#home">
-            <img src="../src/casa.png" alt="Home Icon" style="width:16px; height:16px;">
+            <i class="fa-solid fa-house" alt="Home Icon" style="width:16px; height:16px;"></i>
             <span class="nav-text">Home</span>
           </a>
 
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#about-me">
-            <img src="../src/editar.png" alt="Sobre Mim Icon" style="width:16px; height:16px;">
+            <i class="fa-regular fa-pen-to-square" alt="Sobre Mim Icon" style="width:16px; height:16px;"></i>
              <span class="nav-text">Sobre Mim</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#skills">
-            <img src="../src/lampada.png" alt="Skills Icon" style="width:16px; height:16px;">
+            <i class="fa-solid fa-fire" alt="Skills Icon" style="width:16px; height:16px;"></i>
             <span class="nav-text">Skills</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">
-            <img src="../src/livros.png" alt="Projetos Icon" style="width:16px; height:16px;">
+          <a class="nav-link" aria-current="page" href="#projects">
+            <i class="fa-solid fa-book-bookmark"alt="Projetos Icon" style="width:16px; height:16px;"></i>
             <span class="nav-text">Projetos</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">
-            <img src="../src/chamada-telefonica.png" alt="Contato Icon" style="width:16px; height:16px;">
+            <i class="fa-solid fa-phone-volume" alt="Contato Icon" style="width:16px; height:16px;"></i>
             <span class="nav-text">Contato</span>
           </a>
         </li>
@@ -57,17 +57,17 @@
   <main id="home" class="container-fluid vh-100 d-flex align-items-center justify-content-center">
     <div class="row w-100">
 
-      <div id="profile" class="col-md-6 d-flex justify-content-center align-items-center">
-        <img src="../src/profile.jpeg" alt="Imagem de Perfil" class="profile-img" >
+      <div id="profile" class="col-md-6 d-flex justify-content-center align-items-center image-container">
+        <img src="../src/profile.jpeg" alt="Imagem de Perfil" class="profile-img aparecer" >
 
         <div class="text-style">
-          <h3>&lt; Olá! Eu sou Laira Lyriel /&gt;</h3>
+          <h3 id="typing-effect">&lt; Olá! Eu sou Laira Lyriel /&gt;</h3>
         </div>
       </div>
   
       <div id="description" class="col-md-6 d-flex justify-content-center align-items-center">
         <div id="text-container">
-          <h4 class="profile-text">Desenvolvedora full stack JR.<br>
+          <h4 class="profile-text"><span class="destac-text">Desenvolvedora full stack JR.</span><br>
             Programadora focada em expandir horizontes no ramo da programação.</h4>
         </div>
 
@@ -97,7 +97,7 @@
   <!-- TELA SOBRE MIM -->
   <section id="about-me">
     <div class="container">
-      <h1>&lt; SOBRE MIM /&gt;</h1>
+      <h1 class="titles">&lt; SOBRE MIM /&gt;</h1>
 
       <p class="text-style">
         Sou Laira Lyriel, tenho formação em Técnico em Desenvolvimento de Sistemas e Técnico em Recursos Humanos. Amo programação e tenho habilidades para desenvolver seu projeto com maestria.
@@ -136,7 +136,7 @@
   <!-- TELA HABILIDADES -->
   <section id="skills">
     <div class="container">
-      <h1>&lt; HABILIDADES /&gt;</h1>
+      <h1 class="titles">&lt; HABILIDADES /&gt;</h1>
 
       <div class="botoes-forms">
         <div class="btn-color"></div>
@@ -144,57 +144,153 @@
         <button id="btnProfissionais">Profissionais</button>
       </div>
 
-      <div id="pessoal" class="card-hab active row text-center text">
-        <!-- Card 1 -->
-        <div class="col-md-3 mb-4">
+      <div id="pessoal" class="row card-hab active text-center text">
+        <div class="col-md-3 col-sm-6 mb-4">
           <div class="info-card p-4 h-100">
             <h4>Criatividade</h4>
             <p>Sou uma programadora criativa que combina habilidades técnicas com uma abordagem inovadora para resolver problemas.</p>
           </div>
         </div>
       
-        <!-- Card 2 -->
-        <div class="col-md-3 mb-4">
+        <div class="col-md-3 col-sm-6 mb-4">
           <div class="info-card p-4 h-100">
             <h4>Organização</h4>
             <p>Sou uma pessoa que prioriza a organização e o planejamento para manter a produtividade alta e cumprir prazos.</p>
           </div>
         </div>
       
-        <!-- Card 3 -->
-        <div class="col-md-3 mb-4">
+        <div class="col-md-3 col-sm-6 mb-4">
           <div class="info-card p-4 h-100">
             <h4>Comunicação</h4>
-            <p>Tenho boas habilidades de comunicação para trabalhar em equipe e transmitir ideias de forma clara.</p>
+            <p>Tenho boas habilidades de comunicação para trabalhar em equipe e transmitir ideias de forma clara para todos os envolvidos.</p>
           </div>
         </div>
       
-        <!-- Card 4 -->
-        <div class="col-md-3 mb-4">
+        <div class="col-md-3 col-sm-6 mb-4">
           <div class="info-card p-4 h-100">
             <h4>Resolução de Problemas</h4>
-            <p>Sou uma pessoa com forte capacidade de resolução de problemas, sempre buscando a melhor solução para desafios.</p>
+            <p>Sou uma pessoa com forte capacidade de resolução de problemas, sempre buscando a melhor solução.</p>
+          </div>
+        </div>
+      </div>      
+
+      <div id="profissional" class="row card-hab text-center text">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="info-card p-4 h-100">
+            <h4>Python</h4>
+            <i class="fa-brands fa-python icons-card"></i>
+          </div>
+        </div>
+      
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="info-card p-4 h-100">
+            <h4>HTML</h4>
+            <i class="fa-brands fa-html5 icons-card"></i>
+          </div>
+        </div>
+      
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="info-card p-4 h-100">
+            <h4>CSS</h4>
+            <i class="fa-brands fa-css3-alt icons-card"></i>
+          </div>
+        </div>
+      
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="info-card p-4 h-100">
+            <h4>NodeJS</h4>
+            <i class="fa-brands fa-node icons-card"></i>
+          </div>
+        </div>
+      
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="info-card p-4 h-100">
+            <h4>JavaScript</h4>
+            <i class="fa-brands fa-js icons-card"></i>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="info-card p-4 h-100">
+            <h4>PHP</h4>
+            <i class="fa-brands fa-php icons-card"></i>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="info-card p-4 h-100">
+            <h4>MySQL</h4>
+            <i class="fa-solid fa-database icons-card"></i>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="info-card p-4 h-100">
+            <h4>Figma</h4>
+            <i class="fa-brands fa-figma icons-card"></i>
           </div>
         </div>
       </div>
-      
-      
-    
-      <div id="profissional" class="card-hab d-none active" >
-        <h4>Habilidades Profissionais</h4>
-        <ul>
-          <li>Desenvolvimento Full Stack</li>
-          <li>Conhecimento em bancos de dados</li>
-          <li>Versionamento com Git</li>
-        </ul>
-      </div>
-    </section>
-    </div>
   </section>
+
+
+<!-- PROJETOS -->
+<section id="projects">
+  <div class="container">
+    <h1 class="titles">&lt; PROJETOS /&gt;</h1>
+
+    <div id="carouselProjetos" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Projeto 1 -->
+        <div class="carousel-item active">
+          <div class="project-card text-center">
+            <img src="../src/onepage.png" alt="Projeto 1" class="img-fluid">
+            <h4>Projeto 1</h4>
+            <p>Descrição breve do projeto desenvolvido.</p>
+            <a href="https://linkdoproj1.com" target="_blank" class="btn">Ver Projeto</a>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="carousel-item">
+          <div class="project-card text-center">
+            <img src="img/projeto2.png" alt="Projeto 2" class="img-fluid">
+            <h4>Projeto 2</h4>
+            <p>Descrição breve do projeto desenvolvido.</p>
+            <a href="https://linkdoproj2.com" target="_blank" class="btn">Ver Projeto</a>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="project-card text-center">
+            <img src="../src/quiz.png" alt="Projeto 3" class="img-fluid">
+            <h4>Quiz</h4>
+            <p>Um quiz de diversas áreas, as quais você pode escolher e se desafiar!</p>
+            <a class="btn">Em desenvolvimento</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controles do Carrossel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+</section>
 
 
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <script src="index.js"></script>
+      <script src="https://kit.fontawesome.com/97da884ccd.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -18,9 +18,14 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
     width: 100%;
     padding: 0;
-
-/* NAVBAR */
 }
+
+.titles{
+    color: #6E3781 !important; 
+    font-weight: bolder; 
+}
+/* NAVBAR */
+
 header nav {
     position: fixed;
 }
@@ -113,7 +118,35 @@ header nav {
     transform: scale(1.03) !important;
     filter: brightness(1.3) !important; 
 }
+.destac-text{
+    font-size: 2rem; 
+    color: #6E3781; 
+    font-weight: bold;
+}
 
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    overflow: hidden;
+  }
+  .aparecer {
+    opacity: 0; 
+    transform: scale(0.8);
+    animation: fadeInEffect 2s ease-out forwards; /*  animação */
+  }
+  @keyframes fadeInEffect {
+    0% {
+      opacity: 0;
+      transform: scale(0.8); /* Reduzido */
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1); /* Tamanho normal */
+    }
+  }
 /* ABOUT-ME */
 
 #about-me {
@@ -193,15 +226,14 @@ header nav {
     transition: left 0.3s ease;
 }
 .card-hab {
-    display: flex;
-    flex-direction: column;
+    display: none !important;
     width: 100%;
     align-items: center;
-    margin: 10px 20px 10px 20px;
+    margin: 0;
 }
 
 .card-hab.active {
-    display: flex;
+    display: flex !important;
 }
 
 #pessoal h4{
@@ -211,3 +243,57 @@ header nav {
     background-color: #434f30;
     
 }
+.icons-card{
+    font-size: 4rem;
+    color: #6E3781;
+}
+#profissional .info-card{
+    background-color: #6C7E4E;
+}
+
+/* PROJETOS */
+#projects {
+    padding: 60px 0;
+    background-image: linear-gradient(to right, #7E8C69, #606F49, #434F30);
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .project-card{
+    padding: 80px;
+  }
+  .project-card img {
+    border-radius: 8px;
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto 15px;
+  }
+  
+  .project-card h4 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #6E3781;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    color: #E2E5DC;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    border-radius: 50%;
+  }
+  
+
+/* CSS DO EFEITO */
+#typing-effect::after {
+    content: "|";
+    display: inline-block;
+    margin-left: 4px;
+    animation: blink 1s infinite;
+    color: #333; /* Cor do cursor */
+}
+
+
+
