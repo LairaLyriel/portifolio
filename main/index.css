@@ -111,7 +111,6 @@ header nav {
 .btn:hover {
     transform: scale(1.03) !important;
     background-color: #CD5220 !important;
-    /* filter: brightness(0.8) !important;  */
 }
 .destac-text{
     font-size: 2rem; 
@@ -255,7 +254,7 @@ header nav {
 /* PROJETOS */
 #projects {
     padding: 60px 0;
-    background-color: #6C7E4E;
+    background-color: #434F30;
     /* background-image: linear-gradient(to right, #434f30, #7E8C69); */
     text-align: center;
     padding: 50px;
