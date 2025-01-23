@@ -230,11 +230,14 @@ header nav {
     .image-container {
         height: 60%; 
         width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
     }
 
     .profile-img {
         width: 70%; 
-        height: 70%; 
+        height: 50%; 
         border-radius: 50%;
         margin-bottom: 10px; 
     }
@@ -416,8 +419,7 @@ header nav {
 .card-hab.active {
   display: flex !important;
   flex-wrap: wrap;
-  justify-content: center; /* Centraliza os cards */
-  gap: 20px; /* Espaçamento entre os cards */
+  justify-content: center; 
 }
 
 .info-card {
