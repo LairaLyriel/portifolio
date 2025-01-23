@@ -1,58 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+       <!-- SEO -->
+<meta name="description" content="Portfolio de Laira Lyriel Santos, Desenvolvedora Full-Stack Junior com habilidades em diversas tecnologias.">
+<meta name="author" content="Laira Lyriel Santos | Dev Full-Stack">
+<meta name="keywords" content="Portfolio, Programação, Desenvolvedora em Santo Antônio de Jesus, PHP, JavaScript, HTML, CSS, Full-Stack, Back-End, Front-End, Web desingner">
+
+<!-- Idioma principal -->
+<link rel="alternate" hreflang="pt-br" href="https://portifolio-LSdev.netlify.app/" />
+
+<!-- Configuração de rastreamento -->
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph (OG) para redes sociais -->
+<meta property="og:url" content="https://portfolio-LSdev.netlify.app/" />
+<meta property="og:title" content="Portfolio | Laira Lyriel Santos" />
+<meta property="og:image" content="https://portfolio-LSdev.netlify.app/src/logo.png" />
+<meta property="og:description" content="Conheça o perfil profissional de Laira Lyriel Santos, Desenvolvedora Full-Stack." />
+<meta property="og:type" content="website">
+
+<!-- Configuração de tema e ícones -->
+<meta name="theme-color" content="#A67C52">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="https://portfolio-LSdev.netlify.app/src/logo-circulo.png">
+
+<!-- Informações de contato -->
+<meta property="business:contact_data:country_name" content="Brasil" />
+<meta property="business:contact_data:region" content="BA" />
+<meta property="business:contact_data:email" content="laira.lyriel2014@gmail.com" />
+<meta property="business:contact_data:phone_number" content="+55 75 98155-3659 />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Portfolio | Laira Lyriel Santos" />
+<meta name="twitter:description" content="Desenvolvedora Full-Stack JR com habilidades versáteis em várias técnologias." />
+<meta name="twitter:image" content="https://portfolio-LSdev.netlify.app/src/logo.png" />
+
+<!-- Informações geográficas -->
+<meta name="geo.placename" content="Santo Antônio de Jesus, Bahia, Brasil" />
+<meta name="geo.region" content="BR" />
+
+<!-- URL canônica -->
+<link rel="canonical" href="https://portfolio-LSdev.netlify.app/" />
+
+    
+    <meta property="og:type"            content="website" />
+    <meta property="og:locale"          content="pt_BR" />
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="..src/logo/FaviIcon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Laira Lyriel | Desenvolvedora Full-Stack</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2V2VZ9Z1J"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q2V2VZ9Z1J');
+</script>
+
+    
 </head>
 <body>
 
   <!-- NAVBAR -->
   <header>
-    <nav class="nav container-fluid d-flex justify-content-between align-items-center px-3 ">
-
-      <a class="navbar-brand" href="#">
-        <img src="#" alt="logo" width="130" height="130">
-      </a>
-    
-      <ul class="nav text d-flex justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#home">
-            <i class="fa-solid fa-house " alt="Home Icon" style="width:16px; height:16px;"></i>
-            <span class="nav-text ">Home</span>
-          </a>
-
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#about-me">
-            <i class="fa-regular fa-pen-to-square " alt="Sobre Mim Icon" style="width:16px; height:16px;"></i>
-             <span class="nav-text ">Sobre Mim</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#skills">
-            <i class="fa-solid fa-fire " alt="Skills Icon" style="width:16px; height:16px;"></i>
-            <span class="nav-text ">Skills</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#projects">
-            <i class="fa-solid fa-book-bookmark "alt="Projetos Icon" style="width:16px; height:16px;"></i>
-            <span class="nav-text ">Projetos</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">
-            <i class="fa-solid fa-phone-volume" alt="Contato Icon" style="width:16px; height:16px;"></i>
-            <span class="nav-text ">Contato</span>
-          </a>
-        </li>
-      </ul>
+    <nav class="nav container-fluid d-flex justify-content-between align-items-center px-3">
+      <div class="logo">
+        <a class="navbar-brand m-1 ms-4" href="#home">
+          <img src="../src/logo.png" alt="logo" class="responsive-logo">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fi fi-rr-menu-burger" style="width:16px; height:16px;"></i></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav text d-flex justify-content-end align-items-center nav-menu">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">
+              <i class="fa-solid fa-house" alt="Home Icon" style="width:16px; height:16px;"></i>
+              <span class="nav-text">Home</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about-me">
+              <i class="fa-regular fa-pen-to-square" alt="Sobre Mim Icon" style="width:16px; height:16px;"></i>
+              <span class="nav-text">Sobre Mim</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#skills">
+              <i class="fa-solid fa-fire" alt="Skills Icon" style="width:16px; height:16px;"></i>
+              <span class="nav-text">Skills</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#projects">
+              <i class="fa-solid fa-book-bookmark" alt="Projetos Icon" style="width:16px; height:16px;"></i>
+              <span class="nav-text">Projetos</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#contato">
+              <i class="fa-solid fa-phone-volume" alt="Contato Icon" style="width:16px; height:16px;"></i>
+              <span class="nav-text">Contato</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
 
+  <!-- integração vlibras -->
   <div vw class="enabled">
     <div vw-access-button class="active"></div>
     <div vw-plugin-wrapper>
@@ -98,11 +164,15 @@
         </div>
 
         <div class="button-container mt-4 ">
-          <button class="button-color btn">Entre em contato</button>
+          <a href="#contato" class="btn">Entre em contato!</a>
       </div>
         
+      <div class="scroll-indicator">
+       <i><a class="fa-solid fa-angle-down titles" href="#about-me"></a> </i>
+      </div>
       </div>
     </div>
+
   </main>
 
   <!-- TELA SOBRE MIM -->
@@ -112,7 +182,7 @@
 
       <p class="text-style">
         Sou Laira Lyriel, tenho formação em Técnico em Desenvolvimento de Sistemas e Técnico em Recursos Humanos. Amo programação e tenho habilidades para desenvolver seu projeto com maestria.
-  Amo ler e sou apaixonada por super-herois, HQs e RPG. Eu amo estudar e me manter infromada nas mais diversas áreas.
+  Amo ler e sou apaixonada por super-heróis, HQs e RPG. Eu amo estudar e me manter informada nas mais diversas áreas.
       </p>
 
       <div id="card-container" class="row text-center text">
@@ -255,31 +325,52 @@
 
         <!-- Projeto 1 -->
         <div class="carousel-item active">
-          <div class="project-card text-center">
-            <img src="../src/onepage.png" alt="Projeto 1" class="img-fluid">
-            <h4>Projeto 1</h4>
-            <p>Bla bla bla.</p>
-            <a href="https://linkdoproj1.com" target="_blank" class="btn">Ver Projeto</a>
+          <div class="project-card text-center ">
+            <img src="../src/onepage.png" alt="site-ar-conditioner" class="img-fluid">
+            <h4>Site Ar-conditioner</h4>
+            <p>Site One-Page de uma empresa de instalação e manutenção de ar condicionado.</p>
+            <a href="https://hot-in-cold.netlify.app/" target="_blank" class="btn">Ver Projeto</a>
+            <a href="https://github.com/LairaLyriel/OnePage.git" target="_blank" class="social-icon-p">
+              <img src="../src/github.png" alt="github" class="project-icon">
+            </a>
           </div>
         </div>
 
         <!-- Projeto 2 -->
         <div class="carousel-item">
           <div class="project-card text-center">
-            <img src="img/projeto2.png" alt="Projeto 2" class="img-fluid">
-            <h4>Projeto 2</h4>
-            <p>Bla bla bla.</p>
-            <a href="https://linkdoproj2.com" target="_blank" class="btn">Ver Projeto</a>
+            <img src="../src/info paises.png" alt="busca paises" class="img-fluid">
+            <h4>Buscador de países</h4>
+            <p>O site busca informações sobre países utilizando API.</p>
+            <a href="https://infos-paises.netlify.app/" target="_blank" class="btn">Ver Projeto</a>
+            <a href="https://github.com/LairaLyriel/busca-paises.git" target="_blank" class="social-icon-p">
+              <img src="../src/github.png" alt="github" class="project-icon">
+            </a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="project-card text-center">
+            <img src="../src/lista-de-tarefas.png" alt="lista de tarefas" class="img-fluid">
+            <h4>Lista de tarefas</h4>
+            <p>Site de lista de tarefas</p>
+            <a href="https://gerencia-de-tarefas.netlify.app/" target="_blank" class="btn">Ver Projeto</a>
+            <a href="https://github.com/LairaLyriel/lista-de-tarefas.git" target="_blank" class="social-icon-p">
+              <img src="../src/github.png" alt="github" class="project-icon">
+            </a>
           </div>
         </div>
 
 
         <div class="carousel-item">
           <div class="project-card text-center">
-            <img src="../src/quiz.png" alt="Projeto 3" class="img-fluid">
+            <img src="../src/quiz.png" alt="quizz" class="img-fluid">
             <h4>Quiz</h4>
             <p>Um quiz de diversas áreas, as quais você pode escolher e se desafiar!</p>
             <a class="btn">Em desenvolvimento</a>
+            <a href="#" target="_blank" class="social-icon-p">
+              <img src="../src/github.png" alt="github" class="project-icon">
+            </a>
           </div>
         </div>
 
@@ -298,6 +389,67 @@
   </div>
 </section>
 
+<!-- Contato -->
+<section id="contato" class=" container-fluid p-2 p-sm-3 ps-md-5 pe-lg-5  d-flex align-items-center justify-content-center flex-column">
+  <h3 class="m-5">Entrar em Contato</h3>
+      <form id="contactForm" action="#" method="POST">
+          <!-- Name input-->
+          <div class=" mb-3">
+            <label for="name">Seu nome:</label>
+            <input class="" required id="name"  minlength="5"  maxlength="100" name="Nome" type="text" placeholder="Digite seu nome..." data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="name:required">Seu nome é obrigatório.</div>
+          </div>
+          
+          <div class=" mb-3">
+            <label for="email">Email:</label>
+            <input class="" required name="Email" id="email" type="email" maxlength="100"  minlength="3" placeholder="name@example.com" data-sb-validations="required,email" />
+            <div class="invalid-feedback" data-sb-feedback="email:required">Seu email é obrigatório</div>
+            <div class="invalid-feedback" data-sb-feedback="email:email">Este email não é válido.</div>
+          </div>
+          
+          <div class=" mb-3">
+            <label for="phone">Número de Telefone:</label>
+            <input class="" required id="phone" type="tel" name="Telefone" maxlength="25"  minlength="8" placeholder="(00) 0 0000-0000" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="phone:required">Um número de telefone é necessário.</div>
+          </div>
+          
+          <div class=" mb-3">
+            <label for="message">Mensagem:</label>
+              <textarea class="" maxlength="1000" required id="message" type="text" placeholder="Digite sua mensagem aqui" style="height: 10rem" data-sb-validations="required" name="Mensagem"></textarea>
+              <div class="invalid-feedback" data-sb-feedback="message:required">É necessário digitar uma mensagem.</div>
+          </div>
+
+        
+          <div class="d-none" id="submitSuccessMessage">
+              <div class="text-center mb-3">
+                  <div class="fw-bolder">Formulário enviado com sucesso!</div>
+              </div>
+          </div>
+  
+          <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erroo ao enviar mensagem!</div></div>
+          
+          <div class="d-grid mb-5"><button class="btn btn-xl more w-100" id="submitButton" type="submit">Enviar Mensagem</button></div>
+      </form>
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center mb-4">
+        <div class="logo">
+          <a class="navbar-brand" href="#home">
+            <img src="../src/logo grande.png" alt="logo" class="responsive-logo">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>&copy; Laira Lyriel Santos | 2025 Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
