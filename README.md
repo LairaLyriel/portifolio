@@ -8,13 +8,13 @@ Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para 
 
 ## 🔧 Tecnologias Utilizadas
 
-- **HTML:** 
-- **CSS:** 
-- **Bootstrap:**
-- **JavaScript:** 
-- **Google Apps Script:** 
-- **Figma:** 
-- **VLibras:**
+- **HTML;** 
+- **CSS;** 
+- **Bootstrap;**
+- **JavaScript;** 
+- **Google Apps Script;** 
+- **Figma;** 
+- **VLibras**
 
 ## ⚡ Funcionalidades
 
