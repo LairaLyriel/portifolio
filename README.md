@@ -2,19 +2,19 @@
 
 -------------------------------------------
 
-# Portfólio pessoal | Desenvolvedor Full Stack
+# Portfólio pessoal | Desenvolvedora Full Stack
 
 Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para mostrar minhas habilidades e experiências como desenvolvedora,visando um desing responsivo, bonito e acessível.
 
 ## 🔧 Tecnologias Utilizadas
 
-- **HTML:** 
-- **CSS:** 
-- **Bootstrap:**
-- **JavaScript:** 
-- **Google Apps Script:** 
-- **Figma:** 
-- **VLibras:**
+- **HTML;** 
+- **CSS;** 
+- **Bootstrap;**
+- **JavaScript;** 
+- **Google Apps Script;** 
+- **Figma;** 
+- **VLibras**
 
 ## ⚡ Funcionalidades
 
