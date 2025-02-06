@@ -613,6 +613,7 @@ header nav {
   #contato form input,
   #contato form textarea,
   #contato form button {
+    color: #202617;
     width: 100%;
     padding: 12px 15px;
     margin: 10px 0;
